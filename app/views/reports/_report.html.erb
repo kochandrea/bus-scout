@@ -1,4 +1,4 @@
 <li>
-  <%= link_to report.stop_name, report_path(report) %>
+  On <%= report.created_at %>:  <%= report.complaint %> @ <strong><%= report.stop_name%></strong>
   visited by <strong><%= report.visited_by %></strong>
 </li>

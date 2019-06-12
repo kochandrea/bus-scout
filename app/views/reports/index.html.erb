@@ -1,11 +1,20 @@
+
 <header><h1 class="display-4">Reports</h1></header>
-
-<%= link_to 'Add report', new_report_path, class: 'btn btn-primary btn-lg' %>
-
+<br>
+<br>
+<h4>Dear BusScout,<br><br>Your community is counting on you!</h4>
+<br>
+<%= link_to 'Add your report here', new_report_path, class: 'btn btn-primary btn-lg' %>
+<br>
+<br>
 <div class="card">
   <div class="card-block">
+    <p>See if another Scout already reported it:</p>
+    <br>
     <ul>
       <%= render @reports %>
     </ul>
   </div>
 </div>
+
+</html>
