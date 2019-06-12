@@ -1798,3 +1798,261 @@ Processing by ReportsController#index as HTML
 Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.5ms)
 
 
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "reports"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "reports" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "stop_name" varchar, "complaint" varchar, "latitude" float, "longitude" float, "visited_by" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "reports"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "reports" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "stop_name" varchar, "complaint" varchar, "latitude" float, "longitude" float, "visited_by" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Update (0.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "development"], ["updated_at", "2019-06-12 01:08:01.469961"], ["key", "environment"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2019-06-12 01:08:01.473740"], ["key", "environment"]]
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/andreakoch/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Started GET "/" for ::1 at 2019-06-11 20:08:33 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 244ms (Views: 238.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-06-11 20:16:29 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.4ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-06-11 20:21:04 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-11 20:21:05 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-11 20:21:12 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/andreakoch/Desktop/Civic Tech/bus-scout/app/assets/config
+  /Users/andreakoch/Desktop/Civic Tech/bus-scout/app/assets/images
+  /Users/andreakoch/Desktop/Civic Tech/bus-scout/app/assets/javascripts
+  /Users/andreakoch/Desktop/Civic Tech/bus-scout/app/assets/stylesheets
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/actioncable-5.2.3/lib/assets/compiled
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/activestorage-5.2.3/app/assets/javascripts
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/actionview-5.2.3/lib/assets/compiled
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/andreakoch/Desktop/Civic Tech/bus-scout/node_modules
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/popper_js-1.14.5/assets/javascripts
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.0.0/assets/stylesheets
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.0.0/assets/javascripts
+  /Users/andreakoch/.rvm/gems/ruby-2.6.3/gems/bootstrap-4.0.0/assets/stylesheets):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2408020863044530882_70120786757320'
+Started GET "/" for ::1 at 2019-06-11 20:21:17 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-11 20:24:21 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2225ms (Views: 2223.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reports/new" for ::1 at 2019-06-11 20:24:46 -0500
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (10.9ms)
+  Rendered reports/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 58ms (Views: 46.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/reports" for ::1 at 2019-06-11 20:25:51 -0500
+Processing by ReportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pnjIZ/pXBEb6H5sK/U/5JBeuDdegqIKsSAEMSrQcTbuQZm8GQ9fyw+xwWlApSwQKj+vS4cGr1YVfyve6ERsfMw==", "report"=>{"stop_name"=>"E Hyde Park & Cornell", "visited_by"=>"friends_of_transportation", "complaint"=>"There is a trash fire near the bus stop!"}, "commit"=>"Add!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:12
+  [1m[36mReport Create (1.1ms)[0m  [1m[32mINSERT INTO "reports" ("stop_name", "complaint", "visited_by", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["stop_name", "E Hyde Park & Cornell"], ["complaint", "There is a trash fire near the bus stop!"], ["visited_by", "friends_of_transportation"], ["created_at", "2019-06-12 01:25:51.074170"], ["updated_at", "2019-06-12 01:25:51.074170"]]
+  ↳ app/controllers/reports_controller.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-11 20:25:51 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of reports/_report.html.erb [1 times] (0.6ms)
+  Rendered reports/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/reports/new" for ::1 at 2019-06-11 20:25:59 -0500
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (1.8ms)
+  Rendered reports/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/reports" for ::1 at 2019-06-11 20:27:03 -0500
+Processing by ReportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P1q2mu1iKCroQ+c6dTzrAEcpHSVsmOvXdDKWlUHsFz4JRBH7VOLer/4sJmChOBYu32zCEw2bvP5j+W1l5OtFtg==", "report"=>{"stop_name"=>"E Hyde Park & Cornell", "visited_by"=>"anon", "complaint"=>"Woooowww...that dog almost got hit by the 172"}, "commit"=>"Add!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:12
+  [1m[36mReport Create (0.6ms)[0m  [1m[32mINSERT INTO "reports" ("stop_name", "complaint", "visited_by", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["stop_name", "E Hyde Park & Cornell"], ["complaint", "Woooowww...that dog almost got hit by the 172"], ["visited_by", "anon"], ["created_at", "2019-06-12 01:27:03.962031"], ["updated_at", "2019-06-12 01:27:03.962031"]]
+  ↳ app/controllers/reports_controller.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-11 20:27:03 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.3ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of reports/_report.html.erb [2 times] (0.9ms)
+  Rendered reports/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/reports/new" for ::1 at 2019-06-11 20:27:07 -0500
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (1.6ms)
+  Rendered reports/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/reports" for ::1 at 2019-06-11 20:27:36 -0500
+Processing by ReportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ov1cRxUh9GetnTaABY9VHrDRKaPfrIoouguy2DzPwGmU4/smrKEC4rvy99rRi6gwKJT2lb6v3QGtwEkomciS4Q==", "report"=>{"stop_name"=>"E Hyde Park & Cornell", "visited_by"=>"akoko", "complaint"=>"Missing light at bus stop"}, "commit"=>"Add!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:12
+  [1m[36mReport Create (0.4ms)[0m  [1m[32mINSERT INTO "reports" ("stop_name", "complaint", "visited_by", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["stop_name", "E Hyde Park & Cornell"], ["complaint", "Missing light at bus stop"], ["visited_by", "akoko"], ["created_at", "2019-06-12 01:27:36.960908"], ["updated_at", "2019-06-12 01:27:36.960908"]]
+  ↳ app/controllers/reports_controller.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2019-06-11 20:27:36 -0500
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.3ms)[0m  [1m[34mSELECT "reports".* FROM "reports" ORDER BY created_at DESC[0m
+  ↳ app/views/reports/index.html.erb:15
+  Rendered collection of reports/_report.html.erb [3 times] (0.7ms)
+  Rendered reports/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.3ms)
+
+
