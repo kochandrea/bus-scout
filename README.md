@@ -13,6 +13,9 @@ A user can click to add a report and fill out the form to notify others.
 Once a report has been submitted, the bus stop page is updated with the time of the report, comments, and the ID of the user reporting (which also allows a user/'Scout' to double-check that their report went through).
 <img width="956" alt="Screen Shot 2019-06-11 at 8 27 49 PM" src="https://user-images.githubusercontent.com/35736047/59317446-8d905c80-8c88-11e9-866e-653ed6d9b36e.png">
 
+#### Useful tutorials:
+- https://www.sitepoint.com/geocoder-display-maps-and-find-places-in-rails/
+- https://melvinchng.github.io/rails/SearchFeature.html#chapter-4-search-feature
 
 ## To demo:
 
